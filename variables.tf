@@ -92,10 +92,10 @@ variable "availability_zones" {
     type        = list(string)
   
 }
-variable " is peering_enabled" {
+variable "is_peering_enabled" {
     description = "A boolean to enable or disable VPC peering"
     type        = bool
-    default     = false
+    
   
 }
 
